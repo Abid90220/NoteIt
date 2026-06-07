@@ -95,5 +95,3 @@ connectDB().then(() => {
 //       res.status(500).json({ message: "Error deleting post" });
 //     }
 //   });
-
-// mongodb+srv://Abid90220:LSP1nYPhDLZU3mJv@cluster0.pq5j9ik.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

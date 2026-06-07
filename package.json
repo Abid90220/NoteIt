@@ -1,5 +1,5 @@
 {
-  "name": "mern-thinkboard",
+  "name": "noteit",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Abid90220/FirstMERNProject.git"
+    "url": "git+https://github.com/Abid90220/NoteIt.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Abid90220/FirstMERNProject/issues"
+    "url": "https://github.com/Abid90220/NoteIt/issues"
   },
-  "homepage": "https://github.com/Abid90220/FirstMERNProject#readme"
+  "homepage": "https://firstmernproject-zrnq.onrender.com"
 }
