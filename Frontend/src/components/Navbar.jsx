@@ -7,7 +7,11 @@ const Navbar = () => {
         <div className="mx-auto max-w-6xl p-4">
           <div className="flex items-center justify-between">
             <Link to={"/"} className="flex items-center gap-3">
-              <img src="/noteit-logo.svg" alt="NoteIt logo" className="size-10" />
+              <img
+                src={`${import.meta.env.BASE_URL}noteit-logo.svg`}
+                alt="NoteIt logo"
+                className="size-10"
+              />
               <h1 className="text-3xl font-bold text-primary font-mono tracking-tight">NoteIt</h1>
             </Link>
             <div className="flex items-center gap-4">

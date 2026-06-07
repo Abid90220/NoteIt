@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: noteit
+    runtime: node
+    plan: free
+    buildCommand: npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend
+    startCommand: npm run start --prefix Backend
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false
+      - key: UPSTASH_REDIS_REST_URL
+        sync: false
+      - key: UPSTASH_REDIS_REST_TOKEN
+        sync: false
